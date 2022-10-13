@@ -1,0 +1,54 @@
+
+PROGRAM:
+
+#include <stdio.h>
+void main()
+{
+int choice;
+printf("1 january \n 2 febrauary \n 3 march \n 4 april \n 5 may \n 6 june \n 7 july \n 8 august \n 9 september \n 10 october \n 11 november \n 12 december \n");
+printf("enter your choice \n");
+scanf("%d",&choice);
+switch(choice)
+{
+case 1:
+printf("january");
+break;
+case 2:
+printf("febrauary");
+break;
+case 3:
+printf("march");
+break;
+case 4:
+printf("april");
+break;
+case 5:
+printf("may");
+break;
+case 6:
+printf("june");
+break;
+case 7:
+printf("july");
+break;
+case 8:
+printf("august");
+break;
+case 9:
+printf("september");
+break;
+case 10:
+printf("october");
+break;
+case 11:
+printf("november");
+break;
+case 12:
+printf("december");
+break;
+default:
+printf("invalid choice");
+}
+}
+
+ month of the year based on user input and using Switch Case statement has been executed successfully.
