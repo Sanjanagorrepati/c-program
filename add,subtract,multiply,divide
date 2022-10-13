@@ -1,0 +1,47 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{
+	int a,b,add,sub,mul,opt,ans;
+	float div;
+	printf("1.addition\n 2.subtraction\n 3.multiplication\n 4.division\n");
+	printf("select any one option(1 to 4):");
+	scanf("%d",&opt);
+	if(opt<=0 || opt>4)
+	{
+		printf("please enter values between 1 and 4!");
+		exit(0);
+	}
+	printf("Enter value of a:");
+	scanf("%d",&a);
+	printf("Enter value of b:");
+	scanf("%d",&b);
+	if(opt==1)
+	{
+		printf("\nyou have selected 'addition'\n");
+		ans=a+b;
+	}
+	else if(opt==2)
+	{
+		printf("\nyou have selected 'substraction'\n");
+		ans=a-b;
+	}
+	else if(opt==3)
+	{
+		printf("\nyou have selected 'multiplication'\n");
+		ans=a*b;
+	}
+	else if(opt==4)
+	{
+		printf("\nyou have selected 'division'\n");
+		div=a/(float)b;
+	}
+	if(opt!=4)
+	{
+		printf("Answer:%d",ans);
+	}
+	else{
+		printf("Answer:%2f",div);
+	}
+	return 0;
+}
