@@ -1,0 +1,22 @@
+
+
+PROGRAM:
+ 
+ #include <stdio.h> 
+void main() 
+{ 
+int i,n,sum=0; 
+printf("enter the value of n \n"); 
+scanf("%d",&n); 
+int arr[n]; 
+for(i=0;i<n;i++) 
+{ 
+printf("enter the element \n"); 
+scanf("%d",&arr[i]); 
+sum=sum+arr[i]; 
+} 
+printf("sum=%d",sum); 
+}
+
+
+Thus a simple 'c' program to get the sum of 'n' natural numbers using arrays is executed successfully.
